@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: lawngreen;
+            text-align: center;
+        }
+
+        h1 {
+            color: red;
+        }
+
+        .button {
+            background-color: red;
+            color: aliceblue;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+            display: inline-block;
+            border-radius: 6px;
+            width: 10%;
+            padding: 10px 30px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <form>
+
+        <h1>Personal Details</h1>
+
+        <label for="name"> Name :</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="pass "> Password :</label>
+        <input type="password" id="pass" name="password"><br> <br>
+
+        <label for="email"> Email id :</label>
+        <input type="email" id="email" name="email id"><br><br>
+
+        Gender: <input type="radio" name="grnder" value="male">Male
+        <input type="radio" name="grnder" value="female">Female<br><br>
+
+        
+        <label for="phone">Contact :</label>
+        <input type="tel" id="phone" name="contact" required><br>
+
+        <h1>Educational Qualification</h1>
+
+
+        <label for="degree">Degree: </label>
+        <select id="degree" name="degree">
+            <option value="--Select Group--">--Select Group--</option>
+            <option value="Bsc I.T">Bsc I.T</option>
+            <option value="Msc I.T">Msc I.T</option>
+            <option value="Doctorate">Doctorate</option>
+            <option value="M.A">M.A</option>
+        </select><br><br>
+
+        <label for="engineering">Engineering: </label>
+        <select id="engineering" name="Engineering">
+            <option value="--Select Group--">--Select Group--</option>
+            <option value="Computer Engineer">Computer Engineer</option>
+            <option value="Civil Engineer">Civil Engineer</option>
+            <option value="Chemical Engineer">Chemical Engineer</option>
+            <option value="Electrical Engineer">Electrical Engineer</option>
+            <option value="Marine Engineer">Marine Engineer</option>
+        </select><br><br>
+
+        Hobbies: <label for="Playing Chess"> Playing Chess</label>
+        <input type="checkbox" id="Playing Chess" name="Playing Chess">
+
+        <label for="reading books"> Reading Books</label>
+        <input type="checkbox" id="reading books" name="reading books">
+
+        <h1>Address</h1>
+        <label for="address"></label>
+        <textarea name="address" id="address" cols="30" rows="5"></textarea><br><br>
+
+        Attach Resume: <input type="file" name="Resume"><br><br>
+
+        <input type="submit" class="button" value="submit">
+
+
+
+
+    </form>
+
+</body>
+
+</html>
